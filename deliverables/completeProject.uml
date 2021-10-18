@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>controller</OriginalElement>
+  <nodes>
+    <node x="262.0" y="1778.0">model.Board</node>
+    <node x="6852.0" y="1616.0">OpenClient</node>
+    <node x="5679.0" y="26.0">model.MovementPhase</node>
+    <node x="4573.0" y="1616.0">model.MovementAction</node>
+    <node x="7108.75" y="899.0">model.DefaultVictoryCondition</node>
+    <node x="7069.0" y="1616.0">OpenServer</node>
+    <node x="575.0" y="1616.0">controller.TurnConstruction</node>
+    <node x="5680.0" y="1616.0">model.DefaultBuildingLosingCondition</node>
+    <node x="161.5" y="1616.0">model.Subject</node>
+    <node x="1781.0" y="1616.0">model.Player</node>
+    <node x="1544.7500000000002" y="847.0">model.DefaultMovementRule</node>
+    <node x="4835.0" y="1616.0">model.MovementPhaseResult</node>
+    <node x="3033.75" y="834.0">model.Hypnus</node>
+    <node x="3871.0" y="1616.0">controller.BuildingRuleChecker</node>
+    <node x="429.75" y="314.0">View.CliView</node>
+    <node x="0.0" y="1856.0">model.BoardWorker</node>
+    <node x="2767.0" y="1616.0">View.BoardView</node>
+    <node x="6461.75" y="886.0">model.Pan</node>
+    <node x="6087.75" y="808.0">model.DefaultBuildingPhase</node>
+    <node x="3291.0" y="1616.0">controller.MovementRuleChecker</node>
+    <node x="1019.0" y="1616.0">Network.ClientSide</node>
+    <node x="6526.0" y="1616.0">controller.VictoryConditionChecker</node>
+    <node x="274.0" y="12.5">Network.Observable</node>
+    <node x="5097.0" y="1616.0">controller.PhaseResult</node>
+    <node x="0.0" y="0.0">Network.ClientStatus</node>
+    <node x="3358.75" y="808.0">model.Minotaur</node>
+    <node x="6138.0" y="1616.0">model.DefaultMovingLosingCondition</node>
+    <node x="1818.1896121351776" y="39.0">model.BuildingRule</node>
+    <node x="4687.5" y="13.0">model.BuildingPhase</node>
+    <node x="542.0" y="52.0">Network.Observer</node>
+    <node x="4014.25" y="52.0">model.Deity</node>
+    <node x="2795.0000000000005" y="26.0">model.MovementRule</node>
+    <node x="1914.7500000000002" y="834.0">model.Limus</node>
+    <node x="3019.0" y="1616.0">controller.Turn</node>
+    <node x="4765.75" y="795.0">model.Hephaestus</node>
+    <node x="4098.75" y="782.0">model.Hestia</node>
+    <node x="3647.0" y="1616.0">model.Square</node>
+    <node x="5074.75" y="756.0">model.Prometheus</node>
+    <node x="6795.75" y="821.0">model.DefaultMovementPhase</node>
+    <node x="2311.75" y="860.0">model.Atlas</node>
+    <node x="5409.75" y="782.0">model.Artemis</node>
+    <node x="1134.0" y="52.0">model.Observer</node>
+    <node x="2059.0" y="1616.0">Network.ServerSide</node>
+    <node x="4416.75" y="782.0">model.Demetra</node>
+    <node x="2472.0" y="1616.0">controller.TurnManager</node>
+    <node x="125.5" y="743.0">Network.ClientHandler</node>
+    <node x="5761.75" y="782.0">model.Triton</node>
+    <node x="4298.0" y="1616.0">model.BuildingAction</node>
+    <node x="2708.75" y="847.0">model.Aphrodite</node>
+    <node x="1182.75" y="808.0">model.Athena</node>
+    <node x="5289.0" y="1616.0">controller.BoardGameConstructor</node>
+    <node x="3728.75" y="808.0">model.Apollo</node>
+    <node x="6875.049059139786" y="52.0">model.VictoryCondition</node>
+    <node x="1430.0" y="1616.0">model.TestActionProvider</node>
+    <node x="785.75" y="873.0">model.DefaultBuildingRule</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="model.Hephaestus" target="model.Deity">
+      <point x="-72.25" y="-147.5" />
+      <point x="4838.0" y="264.0" />
+      <point x="4106.535714285715" y="264.0" />
+      <point x="24.285714285714675" y="30.0" />
+    </edge>
+    <edge source="model.Limus" target="model.BuildingRule">
+      <point x="-94.25" y="-108.5" />
+      <point x="2009.0000000000002" y="194.0" />
+      <point x="2006.6896121351776" y="194.0" />
+      <point x="0.0" y="43.0" />
+    </edge>
+    <edge source="View.CliView" target="model.Observer">
+      <point x="112.0" y="-628.5" />
+      <point x="709.75" y="184.0" />
+      <point x="1169.25" y="184.0" />
+      <point x="-35.25" y="30.0" />
+    </edge>
+    <edge source="model.Minotaur" target="model.Deity">
+      <point x="87.5" y="-134.5" />
+      <point x="3621.25" y="284.0" />
+      <point x="4067.6785714285716" y="284.0" />
+      <point x="-14.571428571428442" y="30.0" />
+    </edge>
+    <edge source="model.Aphrodite" target="model.Deity">
+      <point x="76.25" y="-95.5" />
+      <point x="2937.5" y="264.0" />
+      <point x="4048.25" y="264.0" />
+      <point x="-34.0" y="30.0" />
+    </edge>
+    <edge source="View.CliView" target="Network.Observable">
+      <point x="-112.0" y="-628.5" />
+      <point x="485.75" y="294.0" />
+      <point x="460.0" y="294.0" />
+      <point x="62.0" y="69.5" />
+    </edge>
+    <edge source="model.Demetra" target="model.BuildingPhase">
+      <point x="82.25" y="-160.5" />
+      <point x="4663.5" y="294.0" />
+      <point x="4789.125" y="294.0" />
+      <point x="-33.875" y="69.0" />
+    </edge>
+    <edge source="model.Minotaur" target="model.MovementRule">
+      <point x="-87.5" y="-134.5" />
+      <point x="3446.25" y="214.0" />
+      <point x="3023.7500000000005" y="214.0" />
+      <point x="76.25" y="56.0" />
+    </edge>
+    <edge source="model.Prometheus" target="model.MovementPhase">
+      <point x="78.75" y="-186.5" />
+      <point x="5311.0" y="284.0" />
+      <point x="5715.5" y="284.0" />
+      <point x="-109.5" y="56.0" />
+    </edge>
+    <edge source="model.Triton" target="model.MovementPhase">
+      <point x="76.5" y="-160.5" />
+      <point x="5991.25" y="294.0" />
+      <point x="5861.5" y="294.0" />
+      <point x="36.5" y="56.0" />
+    </edge>
+    <edge source="model.Hypnus" target="model.Deity">
+      <point x="76.25" y="-108.5" />
+      <point x="3262.5" y="274.0" />
+      <point x="4057.9642857142862" y="274.0" />
+      <point x="-24.28571428571422" y="30.0" />
+    </edge>
+    <edge source="model.DefaultBuildingPhase" target="model.BuildingPhase">
+      <point x="0.0" y="-134.5" />
+      <point x="6264.75" y="224.0" />
+      <point x="4924.625" y="224.0" />
+      <point x="101.625" y="69.0" />
+    </edge>
+    <edge source="model.BoardWorker" target="model.Subject">
+      <point x="0.0" y="-173.5" />
+      <point x="121.0" y="1753.0" />
+      <point x="210.0" y="1753.0" />
+      <point x="-48.5" y="56.0" />
+    </edge>
+    <edge source="model.Apollo" target="model.MovementRule">
+      <point x="-87.5" y="-134.5" />
+      <point x="3816.25" y="204.0" />
+      <point x="3074.583333333334" y="204.0" />
+      <point x="127.08333333333348" y="56.0" />
+    </edge>
+    <edge source="model.Hephaestus" target="model.BuildingPhase">
+      <point x="72.25" y="-147.5" />
+      <point x="4982.5" y="294.0" />
+      <point x="4856.875" y="294.0" />
+      <point x="33.875" y="69.0" />
+    </edge>
+    <edge source="model.DefaultMovementRule" target="model.MovementRule">
+      <point x="0.0" y="-95.5" />
+      <point x="1719.7500000000002" y="214.0" />
+      <point x="2871.2500000000005" y="214.0" />
+      <point x="-76.25" y="56.0" />
+    </edge>
+    <edge source="model.Athena" target="model.Deity">
+      <point x="114.0" y="-134.5" />
+      <point x="1467.75" y="234.0" />
+      <point x="4019.107142857143" y="234.0" />
+      <point x="-63.14285714285734" y="30.0" />
+    </edge>
+    <edge source="model.DefaultMovementPhase" target="model.MovementPhase">
+      <point x="0.0" y="-121.5" />
+      <point x="6942.25" y="204.0" />
+      <point x="5934.5" y="204.0" />
+      <point x="109.5" y="56.0" />
+    </edge>
+    <edge source="model.Limus" target="model.Deity">
+      <point x="94.25" y="-108.5" />
+      <point x="2197.5" y="244.0" />
+      <point x="4028.8214285714284" y="244.0" />
+      <point x="-53.42857142857156" y="30.0" />
+    </edge>
+    <edge source="model.Prometheus" target="model.Deity">
+      <point x="-78.75" y="-186.5" />
+      <point x="5153.5" y="254.0" />
+      <point x="4116.25" y="254.0" />
+      <point x="34.0" y="30.0" />
+    </edge>
+    <edge source="model.Triton" target="model.Deity">
+      <point x="-76.5" y="-160.5" />
+      <point x="5838.25" y="234.0" />
+      <point x="4135.678571428572" y="234.0" />
+      <point x="53.42857142857156" y="30.0" />
+    </edge>
+    <edge source="View.CliView" target="Network.Observer">
+      <point x="0.0" y="-628.5" />
+      <point x="597.75" y="294.0" />
+      <point x="623.5" y="294.0" />
+      <point x="0.0" y="30.0" />
+    </edge>
+    <edge source="model.Artemis" target="model.MovementPhase">
+      <point x="83.0" y="-160.5" />
+      <point x="5658.75" y="294.0" />
+      <point x="5788.5" y="294.0" />
+      <point x="-36.5" y="56.0" />
+    </edge>
+    <edge source="model.DefaultVictoryCondition" target="model.VictoryCondition">
+      <point x="0.0" y="-43.5" />
+      <point x="7265.75" y="294.0" />
+      <point x="7110.549059139786" y="294.0" />
+      <point x="78.5" y="30.0" />
+    </edge>
+    <edge source="model.Aphrodite" target="model.MovementRule">
+      <point x="-76.25" y="-95.5" />
+      <point x="2785.0" y="224.0" />
+      <point x="2922.083333333334" y="224.0" />
+      <point x="-25.416666666666515" y="56.0" />
+    </edge>
+    <edge source="model.Demetra" target="model.Deity">
+      <point x="-82.25" y="-160.5" />
+      <point x="4499.0" y="274.0" />
+      <point x="4096.821428571428" y="274.0" />
+      <point x="14.571428571428442" y="30.0" />
+    </edge>
+    <edge source="model.Atlas" target="model.BuildingRule">
+      <point x="-94.25" y="-82.5" />
+      <point x="2406.0" y="194.0" />
+      <point x="2132.3562788018444" y="194.0" />
+      <point x="125.66666666666652" y="43.0" />
+    </edge>
+    <edge source="model.DefaultBuildingRule" target="model.BuildingRule">
+      <point x="0.0" y="-69.5" />
+      <point x="974.25" y="194.0" />
+      <point x="1881.022945468511" y="194.0" />
+      <point x="-125.66666666666674" y="43.0" />
+    </edge>
+    <edge source="model.Atlas" target="model.Deity">
+      <point x="94.25" y="-82.5" />
+      <point x="2594.5" y="254.0" />
+      <point x="4038.5357142857147" y="254.0" />
+      <point x="-43.71428571428578" y="30.0" />
+    </edge>
+    <edge source="Network.ClientHandler" target="Network.Observable">
+      <point x="53.0" y="-199.5" />
+      <point x="284.5" y="294.0" />
+      <point x="336.0" y="294.0" />
+      <point x="-62.0" y="69.5" />
+    </edge>
+    <edge source="Network.ClientHandler" target="Network.ClientStatus">
+      <point x="-53.0" y="-199.5" />
+      <point x="178.5" y="294.0" />
+      <point x="127.0" y="294.0" />
+      <point x="0.0" y="82.0" />
+    </edge>
+    <edge source="model.Board" target="model.Subject">
+      <point x="0.0" y="-251.5" />
+      <point x="396.0" y="1753.0" />
+      <point x="307.0" y="1753.0" />
+      <point x="48.5" y="56.0" />
+    </edge>
+    <edge source="model.Pan" target="model.VictoryCondition">
+      <point x="78.5" y="-56.5" />
+      <point x="6697.25" y="294.0" />
+      <point x="6953.549059139786" y="294.0" />
+      <point x="-78.5" y="30.0" />
+    </edge>
+    <edge source="model.Apollo" target="model.Deity">
+      <point x="87.5" y="-134.5" />
+      <point x="3991.25" y="294.0" />
+      <point x="4077.392857142858" y="294.0" />
+      <point x="-4.857142857142662" y="30.0" />
+    </edge>
+    <edge source="model.Hestia" target="model.Deity">
+      <point x="-74.5" y="-160.5" />
+      <point x="4173.25" y="294.0" />
+      <point x="4087.107142857143" y="294.0" />
+      <point x="4.857142857142662" y="30.0" />
+    </edge>
+    <edge source="model.Artemis" target="model.Deity">
+      <point x="-83.0" y="-160.5" />
+      <point x="5492.75" y="244.0" />
+      <point x="4125.964285714285" y="244.0" />
+      <point x="43.714285714285325" y="30.0" />
+    </edge>
+    <edge source="model.Pan" target="model.Deity">
+      <point x="-78.5" y="-56.5" />
+      <point x="6540.25" y="214.0" />
+      <point x="4145.392857142857" y="214.0" />
+      <point x="63.14285714285688" y="30.0" />
+    </edge>
+    <edge source="model.Hestia" target="model.BuildingPhase">
+      <point x="74.5" y="-160.5" />
+      <point x="4322.25" y="284.0" />
+      <point x="4721.375" y="284.0" />
+      <point x="-101.625" y="69.0" />
+    </edge>
+    <edge source="model.Hypnus" target="model.MovementRule">
+      <point x="-76.25" y="-108.5" />
+      <point x="3110.0" y="224.0" />
+      <point x="2972.916666666667" y="224.0" />
+      <point x="25.416666666666515" y="56.0" />
+    </edge>
+    <edge source="model.Athena" target="model.MovementRule">
+      <point x="0.0" y="-134.5" />
+      <point x="1353.75" y="204.0" />
+      <point x="2820.416666666667" y="204.0" />
+      <point x="-127.08333333333348" y="56.0" />
+    </edge>
+    <edge source="model.Athena" target="model.Observer">
+      <point x="-114.0" y="-134.5" />
+      <point x="35.25" y="30.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.15410452774418917" x="3711.5" y="1140.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
